@@ -19,6 +19,6 @@ Copy code
 python gene_prediction.py input.fasta
 The prediction results will be saved in the predicted_genes.bed file.
 
-#Additions
+# Additions
 In addition to the BED file with predicted genes, you can provide information about the identified genes and proteins in FASTA format.
 Additional data or algorithms can be used to improve the prediction accuracy.
