@@ -1,6 +1,5 @@
 # Gene Prediction Tool
 
-
 This tool is designed to predict the presence of genes in a DNA sequence provided in FASTA format. The prediction results will be saved in a BED file.
 
 # Instructions
@@ -22,3 +21,7 @@ The prediction results will be saved in the predicted_genes.bed file.
 # Additions
 In addition to the BED file with predicted genes, you can provide information about the identified genes and proteins in FASTA format.
 Additional data or algorithms can be used to improve the prediction accuracy.
+
+# Additional Tools Used
+In this project, the program `prodigal` was used for gene prediction. `prodigal` is a popular gene prediction tool that uses a combination of intrinsic and extrinsic methods to identify open reading frames in DNA sequences.
+
